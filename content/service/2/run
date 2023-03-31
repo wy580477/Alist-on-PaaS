@@ -1,0 +1,13 @@
+#!/bin/sh
+
+exec 2>&1 >/dev/null
+
+# Configure aria2
+sh /workdir/tracker.sh /workdir/aria2.conf
+EXEC=$(head /dev/urandom | md5sum | cut -c 1-8)
+ln -sf /workdir/aria2.conf /tmp/${EXEC}.conf
+ln -sf /usr/bin/aria2c /usr/bin/${EXEC}
+touch /workdir/aria2.session
+
+# Run aria2
+exec ${EXEC} --conf-path="/tmp/${EXEC}.conf"
