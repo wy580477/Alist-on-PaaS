@@ -55,6 +55,19 @@ https://alist.nn.ci/zh/config/configuration.html
 ## 部署方式
 
 **请勿使用本仓库直接部署**
+
+ <details>
+<summary><b>Heroku 部署方法</b></summary>
+
+**Heroku 已于2022年11月末关闭免费服务**
+
+ 1. 点击本仓库右上角Fork，再点击Create Fork。   
+ 2. 在Fork出来的仓库页面上点击Setting，勾选Template repository。   
+ 3. 然后点击Code返回之前的页面，点Setting下面新出现的按钮Use this template，起个随机名字创建新库。  
+ 4. 用户名以 `example` 为例，项目名以 `demo` 为例
+ 5. 登陆heroku后，浏览器访问 dashboard.heroku.com/new?template=<https://github.com/example/demo>   
+ 
+ </details> 
  
   <details>
 <summary><b>支持 CI/CD 平台（Render，Northflank，Doprax等）部署方法</b></summary>

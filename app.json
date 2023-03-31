@@ -1,0 +1,23 @@
+{
+    "name": "Deploy",
+    "description": "Deploy",
+    "keywords": ["Deploy"],
+    "env": {
+        "DATEBASE_URL": {
+            "description": "数据库连接 URL",
+            "required": true,
+            "value": ""
+        },
+        "SITE_URL": {
+            "description": "网站 URL, 比如 https://example.com, 这个地址会在程序中的某些地方使用，如果不设置这个字段，一些功能可能无法正常工作",
+            "required": false,
+            "value": ""
+        },
+        "TZ": {
+            "description": "时区",
+            "required": false,
+            "value": "UTC"
+        }
+    },
+    "stack": "container"
+}
