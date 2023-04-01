@@ -19,7 +19,7 @@
 
 | 变量 | 默认值 | 说明 |
 | :--- | :--- | :--- |
-| `DATEBASE_URL` | `` | 数据库连接 URL，默认留空为使用本地 sqlite 数据库 |
+| `DATABASE_URL` | `` | 数据库连接 URL，默认留空为使用本地 sqlite 数据库 |
 | `SITE_URL` | `` | 网站URL，比如 https://example.com ，这个地址会在 Alist 程序中的某些地方使用，如果不设置这个字段，一些功能可能无法正常工作。 |
 | `TZ` | `UTC` | 时区，国内时区为 Asia/Shanghai。 |
 
