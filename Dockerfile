@@ -11,4 +11,6 @@ RUN apk add --no-cache curl runit bash tzdata \
 ENV PORT=3000
 ENV TZ=UTC
 
+EXPOSE 3000
+
 ENTRYPOINT ["runsvdir", "/etc/service"]
