@@ -45,5 +45,7 @@ fi
 
 EXEC=$(head /dev/urandom | md5sum | cut -c 1-9)
 ln -sf /usr/bin/alist /usr/bin/${EXEC}
+export TEMP_DIR=/temp
+cd /
 
-exec ${EXEC} server --data /data --no-prefix
+exec ${EXEC} server --no-prefix
