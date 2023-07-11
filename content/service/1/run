@@ -48,6 +48,7 @@ fi
 
 EXEC=$(head /dev/urandom | md5sum | cut -c 1-9)
 ln -sf /usr/bin/alist /usr/bin/${EXEC}
+export HTTP_PORT=${PORT}
 export TEMP_DIR=/temp
 cd /
 
