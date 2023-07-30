@@ -45,7 +45,7 @@ https://alist.nn.ci/zh/config/configuration.html
 <summary><b>  planetscale.com 免费 MySQL 数据库</b></summary>
 
 1. 前往 https://planetscale.com 注册账号，并新建一个数据库。
-2. 点击数据库名称，进入数据库管理页面，点击左侧的 Connect，在 "connect with" 下拉菜单中选择 Symfony。
+2. 点击数据库名称，进入数据库管理页面，点击左侧的 "Get connection strings"，在 "connect with" 下拉菜单中选择 Symfony。
 3. 下方 "mysql://" 开头字符串即为数据库连接 URL。密码只会显示一次，如果忘记保存了可以点击 "New password" 重新生成。
 </details> 
 
