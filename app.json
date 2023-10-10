@@ -3,7 +3,7 @@
     "description": "Deploy",
     "keywords": ["Deploy"],
     "env": {
-        "DATEBASE_URL": {
+        "DATABASE_URL": {
             "description": "数据库连接 URL",
             "required": true,
             "value": ""
